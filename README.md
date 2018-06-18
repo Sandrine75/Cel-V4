@@ -1,11 +1,11 @@
-# Cel-V3
+# Cel-V4 car push rejeted sur la version Cel-V3
  PROJET CELEBETRIP
                                                Login/Logout component
 
                                                   PROJET OPEN SOURCE
 ________________________________________________________________________________________________________________
 
-Component 1 : https://github.com/Sandrine75/CelebetripOSS
+Component 1 : https://github.com/Sandrine75/CelebetripOSS >> en attente de fusion 
 
 Component 2 : https://github.com/Sandrine75/CelebetripLogComponentOSS
 
