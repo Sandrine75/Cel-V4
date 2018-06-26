@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head prefix="og: http://ogp.me/ns#"> 
+<head prefix="og: http://ogp.me/ns#"> 
       <!-- voir "open graph protocole" http://ogp.me -->
     <meta charset="utf-8">
      <head profile="http://www.w3.org/2005/10/profile">
@@ -24,8 +24,8 @@
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
-        </script>
+        <!--<script   NE SAIS PAS A QUOI CELA SERTsrc="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+        </script>-->
 <!-- jquery -->
         <script
         src="https://code.jquery.com/jquery-3.2.1.js"
@@ -34,27 +34,37 @@
         </script> 
       
       <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
-      
-    </head>
+</head>
       
      
   
 <body id="body"> 
-    <div class="clearfix"> 
-<!-- APP store et Google store -->       
-<div>
-    <div class="absolute">
-    <img src="images/app store.png" margin="20px 30px 3px 150px" >
-    <img src="images/google play.png" margin="60px 30px 3px 150px">
+  <!--  <div class="clearfix">     voir si c est cela qui bloque-->   
+    <div class="relative">
+        <div class="connect"> <!-- animation box foo retirée -->
+            <a href="https://celebetrip-login.herokuapp.com/users/login"> <span class="glyphicon glyphicon-log-in"></span></a>
+            <a href="https://celebetrip-login.herokuapp.com/users/login"> SE CONNECTER </a>
+        </div>
     </div>
-</div><!--fin-->
+    <!-- APP store et Google store -->    
+    <div>
+        <div class="absolute">
+        <img src="images/app store.png" margin="20px 30px 3px 150px" >
+        <img src="images/google play.png" margin="60px 30px 3px 150px">
+        </div>
+    </div><!--fin-->
  <!---------PART 1 ------------------------Home Page----------------------------PART 1-------------------------------------------------------------------------------------------------->   
         <div class="photo_main">
-        <!-- menu login haut droite -->  
-            <div class='box foo'>
-                <span class="glyphicon glyphicon-log-in"></span>
-                SE CONNECTER 
-            </div>        
+        <!-- menu login haut droite 
+couleur voir css 433 module recreer par Christophe de Nodeschool. Voir le conflit dans boostrap notament sur couleur bleue. Revoir page dans l'avenir avec nle écriture-->  
+            <!--<div class='box foo'></div>
+            <div class position>
+                <div class='bus'> <!-- animation box foo retirée 
+                  <span class="glyphicon glyphicon-log-in"></span>
+                    <a href="https://celebetrip-login.herokuapp.com/users/login"> SE CONNECTER </a>
+                </div>
+            </div>
+            
 <!--fin-->
      
       
@@ -79,10 +89,10 @@
                     <br>
                     <h4>Vous êtes FAN d'une célébrité et connaissez tous ses secrets ? <br><br>
                     Devenez embassadeur et contribuez à la découverte de cet artiste </h4> 
-                        <div class='box foo'>
+                        <div class='bus'><!-- animation box foo retirée -->
                         Testez celebetrip ! 
-                        <span class="glyphicon glyphicon-user"></span>
-                        Inscription
+                        <a href="https://celebetrip-login.herokuapp.com/users/register"><span class="glyphicon glyphicon-user"></span> </a>
+                        <a href="https://celebetrip-login.herokuapp.com/users/register">S'INSCRIRE </a>
                         </div>
                 </div>
             </span>
@@ -95,8 +105,7 @@
     
 <!-- celebetrip ecriture verticale droite -->
     <div class="col-3 hidden-xs-down">
-        <span class="text-vertical-span"><b>celebetrip</b></span>
-        
+        <span class="text-vertical-span"><b>celebetrip</b></span>  
     </div> 
 <!--fin
     
@@ -209,15 +218,11 @@
 </div>
 <!--fin-->
 
-  </div>  
+    
 <!----------------------------------------------------------------------------------------------------------------PART 3 -----------------------------Comment cela marche----------------------------------------PART 3------------------------------------------------------------------------------------------------------------------>
 
-<div>
-    <div class="absolute">
-    <img src="images/app store.png" margin="20px 30px 3px 150px" >
-    <img src="images/google play.png" margin="60px 30px 3px 150px">
-    </div>
-</div
+
+
    
 
 
